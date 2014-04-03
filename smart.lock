@@ -6,7 +6,8 @@
       "fast-render": {
         "git": "git://github.com/arunoda/meteor-fast-render.git",
         "branch": "master"
-      }
+      },
+      "phantomjs": {}
     },
     "packages": {
       "iron-router": {
@@ -18,6 +19,11 @@
         "git": "git://github.com/arunoda/meteor-fast-render.git",
         "branch": "master",
         "commit": "678175f0da4471e6e6539006fb993916fa660a2d"
+      },
+      "phantomjs": {
+        "git": "https://github.com/gadicohen/meteor-phantomjs.git",
+        "tag": "v0.0.2",
+        "commit": "a72eb79af068dd5d5d617ac71a42bd74e0cb52a4"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
