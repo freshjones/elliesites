@@ -2,13 +2,22 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {}
+      "iron-router": {},
+      "fast-render": {
+        "git": "git://github.com/arunoda/meteor-fast-render.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.7.0",
         "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+      },
+      "fast-render": {
+        "git": "git://github.com/arunoda/meteor-fast-render.git",
+        "branch": "master",
+        "commit": "678175f0da4471e6e6539006fb993916fa660a2d"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
